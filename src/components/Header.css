@@ -1,0 +1,28 @@
+.header {
+    margin-bottom: 20px; /* Adjust space below header */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Align items vertically centered */
+}
+
+.logo {
+    flex-grow: 1; /* Pushes the logo to the left */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
